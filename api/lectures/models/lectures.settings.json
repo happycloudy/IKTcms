@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "lectures",
   "info": {
-    "name": "Lectures"
+    "name": "Lectures",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,16 +14,10 @@
     "Description": {
       "type": "string"
     },
-    "Lecture": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "Lectures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bachelorlectures.bachelor-lectures"
     }
   }
 }

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "students",
+  "info": {
+    "name": "Students",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Develops": {
+      "type": "text"
+    },
+    "ScienceLecturesAndSeminares": {
+      "type": "richtext"
+    }
+  }
+}

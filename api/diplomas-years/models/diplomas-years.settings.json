@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diplomas_years",
+  "info": {
+    "name": "DiplomasYears"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Year": {
+      "type": "integer"
+    }
+  }
+}

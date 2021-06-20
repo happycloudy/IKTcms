@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/diplomas-years",
+      "handler": "diplomas-years.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/diplomas-years/count",
+      "handler": "diplomas-years.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/diplomas-years/:id",
+      "handler": "diplomas-years.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/diplomas-years",
+      "handler": "diplomas-years.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/diplomas-years/:id",
+      "handler": "diplomas-years.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/diplomas-years/:id",
+      "handler": "diplomas-years.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

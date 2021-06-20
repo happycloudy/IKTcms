@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_students_page_develops",
+  "info": {
+    "name": "Develops",
+    "icon": "bookmark",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    }
+  }
+}

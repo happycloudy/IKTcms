@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_bachelorlectures_bachelor_lectures",
+  "info": {
+    "name": "BachelorLectures",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "lecture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "semester": {
+      "type": "integer"
+    },
+    "Teacher": {
+      "type": "string"
+    }
+  }
+}

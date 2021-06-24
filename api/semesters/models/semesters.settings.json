@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "semesters",
+  "info": {
+    "name": "Semesters",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Description": {
+      "type": "string"
+    },
+    "Semesters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "semesters.semester"
+    }
+  }
+}

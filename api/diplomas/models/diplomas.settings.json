@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diplomas",
+  "info": {
+    "name": "Diplomas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Theme": {
+      "type": "string"
+    },
+    "DiplomaPDF": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Author": {
+      "type": "string"
+    },
+    "direction": {
+      "model": "directions"
+    }
+  }
+}

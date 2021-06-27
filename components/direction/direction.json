@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_direction_directions",
+  "info": {
+    "name": "Direction",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "DirectionNumber": {
+      "type": "string"
+    },
+    "Direction": {
+      "type": "string"
+    },
+    "WhatLearning": {
+      "type": "string"
+    }
+  }
+}

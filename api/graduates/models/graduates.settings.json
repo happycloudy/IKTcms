@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "graduates",
+  "info": {
+    "name": "Graduates"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Main": {
+      "type": "text"
+    }
+  }
+}
